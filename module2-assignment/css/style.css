@@ -1,0 +1,63 @@
+* {
+	box-sizing: border-box;
+	font-family: "Times New Roman", Times, serif;
+	padding:0;
+	margin:0;
+}
+
+#heading {
+	text-align: center;
+	font-size: 175%;
+	margin:50px;
+}
+
+div {
+	float:left;
+}
+
+section {
+	position:relative;
+	border: 1px solid black;
+	background:blue;
+	color:white;
+	padding:15px;
+	margin:20px;
+}
+
+section p {
+	margin-top:40px;
+}
+h2 {
+	position:absolute;
+	top:0;
+	right:0;
+	padding:5px 30px;
+	border:1px solid black;
+	font-size:125%;
+}
+
+#sec-h1 {
+	background:red;
+}
+
+#sec-h2 {
+	background:green;
+}
+
+#sec-h3 {
+	background:yellow;
+	color:black;
+}
+
+@media (min-width: 992px) {
+	div {
+		width:33.33%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#s1, #s2 {
+		width:50%;
+	}
+}
+
