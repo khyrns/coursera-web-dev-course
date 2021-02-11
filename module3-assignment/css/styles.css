@@ -44,9 +44,13 @@ body {
 }
 
 #text {
+	margin: auto;
+}
+
+#text div {
 	background-color: gray;
 	padding: 15px;
-	margin: 30px auto;
+	margin: 10px auto;
 }
 
 #text h3 {
