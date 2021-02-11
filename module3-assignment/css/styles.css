@@ -1,0 +1,60 @@
+body {
+	background-color: white;
+	font-size: 16px;
+	color: black;
+}
+
+#navbar {
+	background-color: gray;
+	border-bottom: 3px black solid;
+}
+
+#navbar a:link, a:visited, a:hover, a:active {
+	color: black;
+}
+
+.navbar-brand #brand {
+	margin-top: 0;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-left: 20px;
+}
+.navbar-header button.navbar-toggle {
+	border: 1px black solid;
+}
+#nav-list {
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: white;
+}
+
+#nav-list li {
+	color: black;
+	border-top: 3px black solid;
+	text-align: center;
+}
+#nav-list li:hover {
+	background-color: gray;
+
+}
+
+#heading {
+	margin-top: 15px;
+	font-family: cursive;
+}
+
+#text {
+	background-color: gray;
+	padding: 15px;
+	margin: 30px auto;
+}
+
+#text h3 {
+	font-size: 1.4em;
+}
+
+@media (max-width: 768px) {
+	#text {
+		width: 80%;
+	}
+ }
